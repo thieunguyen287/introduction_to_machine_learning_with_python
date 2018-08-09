@@ -1,8 +1,8 @@
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from mglearn import datasets
+import matplotlib.pyplot as plt
 
 X, y = datasets.make_wave(n_samples=100)
 line = np.linspace(-3, 3, 1000, endpoint=False).reshape(-1, 1)
